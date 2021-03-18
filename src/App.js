@@ -6,9 +6,10 @@ import Header from './components/header/header.component';
 import Authentication from './pages/authentication/authentication.component';
 import { connect } from 'react-redux';
 import { setCurrentUser } from './redux/user/user.actions';
-import { auth, createUserProfileDocument } from './firebase/firebase.utils';
+
 import { Switch, Route, Redirect } from 'react-router-dom';
 import './App.css';
+import { auth, createUserProfileDocument } from './firebase/firebase.utils';
 
 class App extends React.Component {
 	unsubscribeFromAuth = null;
