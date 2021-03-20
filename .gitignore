@@ -6,7 +6,7 @@
 .pnp.js
 *.env
 /client/node_modules
-/client/.env
+/client/config.env
 # testing
 /coverage
 # production
